@@ -1,11 +1,16 @@
 ## OLYMPIC-DATA-GRP-6
 ## INTRODUCTION/OVERVIEW
-Introduction/Overview:
+Introduction/Overview:he Olympics dataset encompasses a comprehensive collection of historical data on the Olympic Games, including information from the first modern Olympics in Athens in 1896 up to the Beijing 2022 Games. It features results, medals, athletes, and competitions for both Summer and Winter Olympics. 
 
 For this project, we are doing exploratory data analysis on Olympics  Games data. Our objective was to develop a comprehensive and interactive Power BI report that showcases insights into key aspects of the Olympics. This project serves as a demonstration of our data analysis skills, from data import and transformation to data modeling and visualization.
+## DATA SOURCE USED
+The primary source of the data is gotten from ms excel and this an open source data that can easily be downloaded from an open source online ```
+https://www.kaggle.com/datasets/piterfm/olympic-games-medals-19862018
+## TOOLS USED
+•	Ms Excel Download Here (http//www.excel.com)
+•	Power BI Download Here (http//www.PowerBi.com)
 
- *Key insights include:* 
- 
+## KEY INSIGHT
 We analyze the performance of men versus women in the Olympic Games. By categorizing medal count and gender, we can discern how some countries may have higher performing athletes from men or women.
 
 Count of Medal By Gender 
@@ -28,7 +33,10 @@ Summer & Winter csv: Contains information about athletes, including their countr
 
 Power BI’s 'Get Data' feature made the import process seamless, supporting various file formats. We used CSV files, which were easily integrated into Power BI. During this step, we ensured that all datasets were formatted consistently, and we took note of any potential issues like missing values or incorrect data types.
 
- *Challenges faced:* 
+ ## DATA ANALYSIS
+By engaging with these datasets using excel and power BI
+We use excel function to clean the data by remove comma from the athlete column using
+=substitute(E2,",","")
 
 One of the datasets had inconsistent data formats, such as commas in the name field or text fields where numeric values were expected. These issues were resolved during the data transformation phase and ......(Mazi Ben to supply how he was able to clean the data)
 
@@ -115,5 +123,5 @@ Example screenshot:
 7. Conclusion
 
 This project showcases the end-to-end process of working with Power BI, from data import and transformation to building advanced data models and creating interactive dashboards. The result is a comprehensive report that provides valuable insights into the Olympics, making it easy to explore medal distributions, athlete participation, and country rankings.
-Working on this project allowed us to deepen our expertise in Power BI, particularly in crafting efficient data models, writing dynamic DAX measures, and creating user-friendly visualizations. We look forward to applying these skills in real-world business environments to deliver actionable insights.
+Working on this project allowed us to deepen our expertise in Power BI, particularly in crafting efficient data models, writing dynamic DAX functions creating conditional column and new measures, and creating user-friendly visualizations. We look forward to applying these skills in real-world business environments to deliver actionable insights.
 “Explore the full interactive report here: Power BI Olympic Report”.
